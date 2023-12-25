@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="font-spartan">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Tabs</title>
+</head>
+<body class="bg-[#25282C]">
+    <header class="flex justify-between items-center w-11/12 max-w-[1000px] mx-auto mt-4">
+        <div>
+            <h1 class="text-[1rem] font-[400] text-[#DBFF76] leading-[.5rem] opacity-[.5]">Good to see you,</h1>
+            <h1 class="text-[1.5rem] font-[400] text-[#DBFF76] leading-[1.25rem] mt-2">Hazel Aksoy</h1>
+        </div>
+        <div>
+            <img src="./mobileImages/mobileAvatar.png" alt="Hazel">
+        </div>
+    </header>
+    <main>
+
+    <!-- Overall of all the pages -->
+    <section class="w-full flex md:mx-auto items-center shrink-0 overflow-x-hidden">
+        <!-- ! list of inputs -->
+        <input type="radio" name="page" class="peer/One hidden" id="one">
+        <input type="radio" name="page" class="peer/Two hidden" id="two">
+        <input type="radio" name="page" class="peer/Three hidden" id="three">
+        <input type="radio" name="page" class="peer/Four hidden" id="four">
+        <input type="radio" name="page" class="peer/Five hidden" id="five">
+        <!-- !!Page 1 -->
+            <section class="w-full h-[59rem] md:h-screen duration-[.5s] ease-out flex-none viewArea">
+                <!-- ** SECTION 1 -->
+                <section class="mt-[1.5rem] w-11/12 md:max-w-[45rem] mx-auto lg:max-w-[1000px]">
+                    <div class="flex justify-between">
+                        <h1 class="text-[#DBFF76] text-[1.5rem] font-[400] leading-[1.25rem] uppercase">Spotlight</h1>
+                        <h1 class="flex text-[#DBFF76] text-[1rem] font-[400] leading-[.5rem]">Discover 
+                            <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                <path d="M4.70968 0L3.8796 0.800225L7.1646 3.97275H0V5.10782H7.1646L3.8796 8.28034L4.70968 9.08057L9.41935 4.54028L4.70968 0Z" fill="#DBFF76"/>
+                            </svg></span>
+                        </h1>            
+                    </div>
+                <div class=" md:w-full md:h-full md:flex md:items-center md:gap-[.5rem]">
+
+                    <!-- !Brand 1 -->
+                    <div class="[background-image:url('./mobileImages/brandBG1.png')] mt-[1rem] w-full h-[13.5rem] bg-cover rounded-[.6rem] bg-no-repeat relative cursor-pointer">
+                        <div class=" w-max absolute bottom-0 ml-[.7rem] pb-2 ">
+                            <h1 class="text-[#DEB522] text-[1.8rem] font-[400] leading-[1.5rem] uppercase">Hays 
+                                <span class="block">Legacy</span></h1>
+                            <p class="uppercase text-[1rem] font-[700] leading-[.9rem] text-[#DEB522]">Branding</p>
+                        </div>
+
+                        <div class="absolute bottom-0 right-0 flex">
+                            <img src="/mobileImages/mobileBrandingAvatar.png" alt="avatar">
+                            <img src="/mobileImages/mobileBrandingAvatar2.png" alt="avatar">
+                        </div>
+
+                    </div>
+                    <!-- !End of Brand 1 -->
+
+                    <!-- !Brand 2 -->
+                    <div class="[background-image:url('./mobileImages/brandBG2.png')] w-full h-[13.5rem] bg-cover rounded-[.6rem] bg-no-repeat relative mt-2">
+                    <div class=" w-max absolute bottom-0 ml-[.7rem] pb-2 ">
+                        <h1 class="text-white text-[1.8rem] font-[400] leading-[1.5rem] uppercase">Hays Legacy</h1>
+                        <p class="uppercase text-[1rem] font-[700] leading-[.9rem] text-white">3D ART</p>
+
+                    </div>
+                        <div class="absolute right-0 bottom-0">
+                            <img src="/mobileImages/mobileBrandingAvatar3.png" alt="avatar">
+                        </div>
+
+                    </div>
+                    <!-- !End of Brand 2 -->
+                </div>
+                    
+                </section>
+                
+                <section class="mt-4 w-11/12 mx-auto max-w-[1000px]">
+                    <div class="flex justify-between">
+                        <h1 class="text-[#DBFF76] text-[1.5rem] font-[400] leading-[1.25rem] uppercase">Recent Works</h1>
+                        <h1 class="flex text-[#DBFF76] text-[1rem] font-[400] leading-[1rem]">Discover 
+                            <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                <path d="M4.70968 0L3.8796 0.800225L7.1646 3.97275H0V5.10782H7.1646L3.8796 8.28034L4.70968 9.08057L9.41935 4.54028L4.70968 0Z" fill="#DBFF76"/>
+                            </svg></span>
+                        </h1>            
+                    </div>
+
+
+                    <!-- !Recent works -->
+                <div class="overflow-x-auto w-full">
+                    <div class="flex w-max">
+                        <!-- !Recent work 1 -->
+                        <div class="w-[10rem] h-[17rem] [background-image:url('./mobileImages/recent1.png')] bg-cover rounded-[.7rem] mr-2">
+                    </div>
+                    <!-- !End of recent work 1 -->
+        
+                        <!-- !Recent work 2 -->
+                        <div class="w-[10rem] h-[17rem] [background-image:url('./mobileImages/recent2.png')] bg-cover rounded-[.7rem] mr-2">
+                    </div>
+                    <!-- !End of recent work 2 -->
+                    
+                        <!-- !Recent work 3 -->
+                    <div class="w-[10rem] h-[17rem] [background-image:url('./mobileImages/recent3.png')] bg-cover rounded-[.7rem] mr-2">
+                    </div>
+                    <!-- !End of recent work 3 -->
+        
+                        <!-- !Recent work 4 -->
+                        <div class="w-[10rem] h-[17rem]  [background-image:url('./mobileImages/recent1.png')] bg-cover rounded-[.7rem]">
+                    </div>
+                    <!-- !End of recent work 4 -->
+
+                    
+                    </div>
+                </div>
+                    
+                </section>
+                <!-- ** END OF SECTION 1 -->
+            </section>
+        <!--!!Page1 -->
+
+        <!-- !!Page 2 -->
+            <section class="w-full h-[59rem] md:h-screen flex items-center justify-center flex-none peer/Two snap-start">
+                <div class="flex w-[20rem] h-[20rem]">
+                    <p class="text-[2rem] text-[#DBFF76] font-[400] leading-[1.8rem]">Page 2 This is another tab of information that is contained in this app hence to know more about the art that has been displayed.</p>
+                </div>
+            </section>
+        <!-- !!End of page 2 -->
+
+        <!-- !!Page 3 -->
+            <section class="w-full h-[59rem] md:h-screen flex items-center justify-center flex-none peer/Three bg-black snap-start">
+
+                <div class="flex w-[20rem] h-[20rem]">
+                    <p class="text-[2rem] text-[#DBFF76] font-[400] leading-[1.8rem]"> Page 3 This is tab 3 of the same design which is nothing important just some dummy text that will contain some text for some text so to speak.</p>
+                </div>
+            </section>
+        <!-- !!End of page 3 -->
+
+        <!-- !!Page 4 -->
+            <section class="w-full h-[59rem] md:h-screen flex items-center justify-center flex-none peer/Four bg-orange-500 snap-start">
+                <div class="flex w-[20rem] h-[20rem]">
+                    <p class="text-[2rem] text-[#DBFF76] font-[400] leading-[1.8rem]"> Page 4 This is your section ma boi and that’s right it is the section where you will view your profile about you at the moment so you could check it out and see what you look like in the public.</p>
+                </div>
+            </section>
+        <!-- !!End of page 4 -->
+
+        <!-- !!Page 5 -->
+            <section class="w-full h-[59rem] md:h-screen flex items-center justify-center flex-none peer/Five bg-pink-500 snap-start">
+                <div class="flex w-[20rem] h-[20rem]">
+                    <p class="text-[2rem] text-[#DBFF76] font-[400] leading-[1.8rem]"> Page 5 This is your section ma boi and that’s right it is the section where you will view your profile about you at the moment so you could check it out and see what you look like in the public.</p>
+                </div>
+            </section>
+        <!-- !!End of page 5 -->
+    </section>
+
+        <!-- !Interactive bar -->
+        <div class="bg-[#DBFF76] left-1/2 translate-x-[-50%] w-11/12 max-w-[21rem] h-[3.8rem] fixed bottom-5 rounded-3xl content-[''] after:absolute after:w-[3rem] after:h-[3rem] after:top-2   after:bottom-0 after:border-4 after:border-[#25282C] after:opacity-90 after:rounded-full tabsContainer">
+            <nav class="w-full h-full flex">
+                <ul class="flex w-11/12 mx-auto items-center justify-between">
+                    <!-- Home -->
+                    <li class="duration-[.5s] hover:bg-[#25282C] rounded-full ease-in-out flex items-center justify-center cursor-pointer ">
+
+                       <button class="tab">
+
+                        <label for="one" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M1 11L12 2.00003L23 11" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                                <path d="M4 13V23H20V13" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                              </svg>
+                    </label>
+                       </button>
+                    </li>
+                    <!-- End of Home -->
+
+                    <!-- Details -->
+                    <li class="duration-[.5s] hover:bg-[#25282C] rounded-full ease-in-out flex items-center justify-center cursor-pointer ">
+                       <button class="tab">
+                        <label for="two" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" viewBox="0 0 25 16" fill="none">
+                                <path d="M23.5 9H1.5C0.948 9 0.5 8.553 0.5 8C0.5 7.447 0.948 7 1.5 7H23.5C24.052 7 24.5 7.447 24.5 8C24.5 8.553 24.052 9 23.5 9Z" fill="black"/>
+                                <path d="M23.5 2H12.5C11.948 2 11.5 1.553 11.5 1C11.5 0.447 11.948 0 12.5 0H23.5C24.052 0 24.5 0.447 24.5 1C24.5 1.553 24.052 2 23.5 2Z" fill="black"/>
+                                <path d="M12.5 16H1.5C0.948 16 0.5 15.553 0.5 15C0.5 14.447 0.948 14 1.5 14H12.5C13.052 14 13.5 14.447 13.5 15C13.5 15.553 13.052 16 12.5 16Z" fill="black"/>
+                              </svg>
+                        </label>
+                       </button>
+                            
+                    </li>
+                    <!-- End of details -->
+
+                    <!-- Add button -->
+                    <li class="duration-[.5s] hover:bg-[#25282C] rounded-full ease-in-out flex items-center justify-center cursor-pointer ">
+
+                       <button class="tab">
+                        <label for="three" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M11 5H9V9H5V11H9V15H11V11H15V9H11V5ZM10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18Z" fill="black"/>
+                              </svg>
+                            </label>
+                       </button>
+                    </li>
+                    <!-- End of add button -->
+
+                    <!-- Messages -->
+                    <li class="duration-[.5s] hover:bg-[#25282C] rounded-full ease-in-out  flex items-center justify-center cursor-pointer">
+
+                       <button class="tab">
+                        <label for="four" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20" fill="none">
+                                <path d="M1.5 11V17C1.5 17.5304 1.71071 18.0391 2.08579 18.4142C2.46086 18.7893 2.96957 19 3.5 19H21.5C22.0304 19 22.5391 18.7893 22.9142 18.4142C23.2893 18.0391 23.5 17.5304 23.5 17V11" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                                <path d="M23.5 6V3C23.5 2.46957 23.2893 1.96086 22.9142 1.58579C22.5391 1.21071 22.0304 1 21.5 1H3.5C2.96957 1 2.46086 1.21071 2.08579 1.58579C1.71071 1.96086 1.5 2.46957 1.5 3V6L12.5 12L23.5 6Z" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                              </svg>
+                            </label>
+                       </button>
+                    </li>
+                    <!-- End of messages -->
+
+                    <!-- Profile -->
+                    <li class="duration-[.5s] hover:bg-[#25282C] rounded-full ease-in-out flex items-center justify-center">
+                       <button class="tab">
+                        <label for="five" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24" fill="none">
+                                <path d="M13 15H7C3.686 15 1 17.686 1 21V22C1 22 4.125 23 10 23C15.875 23 19 22 19 22V21C19 17.686 16.314 15 13 15Z" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                                <path d="M5 6C5 3.239 7.239 1 10 1C12.761 1 15 3.239 15 6C15 8.761 12.761 12 10 12C7.239 12 5 8.761 5 6Z" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                              </svg>
+                            </label>
+                       </button>
+                    </li>
+                    <!-- end of profile -->
+                </ul>
+            </nav>
+        </div>
+      
+    </main>
+<script src="app.js"></script>
+</body>
+</html>
